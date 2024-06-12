@@ -1,0 +1,1092 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.32f1 (c8300dc0a3fa) revision 13119501'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'fr' Physical Memory: 16005 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+C:/Users/Pando/World Attack
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+49352
+Successfully changed project path to: C:/Users/Pando/World Attack
+C:/Users/Pando/World Attack
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 10013).
+Player connection [14956] Host "[IP] 192.168.2.3 [Port] 0 [Flags] 2 [Guid] 315949024 [EditorId] 315949024 [Version] 1048832 [Id] WindowsEditor(7,Pandoww) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 7.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.32f1 (c8300dc0a3fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Pando/World Attack/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009205 seconds.
+- Loaded All Assemblies, in  0.390 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 266 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.555 seconds
+Domain Reload Profiling: 943ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (112ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (387ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.476 seconds
+Domain Reload Profiling: 986ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (477ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (2.8 MB). Loaded Objects now: 4888.
+Memory consumption went from 298.8 MB to 296.0 MB.
+Total: 3.609100 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.138400 ms MarkObjects: 2.558300 ms  DeleteObjects: 0.629000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 621740.314143 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Door_A Variant 26.prefab
+  artifactKey: Guid(5707194077dc50f4da55950ccfd0c3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Door_A Variant 26.prefab using Guid(5707194077dc50f4da55950ccfd0c3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '19adeb035ed7233e25b0d6d5dabe13f8') in 0.194625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Door_A Variant 30.prefab
+  artifactKey: Guid(7475c8e8eeff45342942eb1a04f5ef9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Door_A Variant 30.prefab using Guid(7475c8e8eeff45342942eb1a04f5ef9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b30d6dca1bb98746d210fea8b457b5f7') in 0.078667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Door_B Variant 6.prefab
+  artifactKey: Guid(957040e11c7ca944aab9e944fcec8f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Door_B Variant 6.prefab using Guid(957040e11c7ca944aab9e944fcec8f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d08cbc5d95050826cda58d26bcad509') in 0.077724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant.prefab
+  artifactKey: Guid(8072b50a052c2fd4aa38f65070c9d6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant.prefab using Guid(8072b50a052c2fd4aa38f65070c9d6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f2f706857a2b7e1cd721a298cbcfa4f1') in 0.066125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 28.prefab
+  artifactKey: Guid(ee24d3ffe7f947d428b72d03116229ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 28.prefab using Guid(ee24d3ffe7f947d428b72d03116229ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74b8e177afe0795a37759bc950989490') in 0.071230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 27.prefab
+  artifactKey: Guid(7ce15a56e1e775e4e966a32f3767237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 27.prefab using Guid(7ce15a56e1e775e4e966a32f3767237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f9cc3331516fe8f50ac54acfc51bb702') in 0.062316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 2.prefab
+  artifactKey: Guid(ce9b747745fa2bf4ca5a0140f3ba35b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 2.prefab using Guid(ce9b747745fa2bf4ca5a0140f3ba35b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '456e9a0513aee1fe84871e0de64435d0') in 0.065283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 35.prefab
+  artifactKey: Guid(25fb2dcf8f5f2ab40a6de29ddd490ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 35.prefab using Guid(25fb2dcf8f5f2ab40a6de29ddd490ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2f5aaf0ea6dd3a9a3b660288c755c10b') in 0.067710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 46.prefab
+  artifactKey: Guid(c1fcb169b15bacb4c8067d8e3e9c0451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 46.prefab using Guid(c1fcb169b15bacb4c8067d8e3e9c0451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '31a85f6e795c6722f92205dd0825c279') in 0.074779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 82.prefab
+  artifactKey: Guid(747adca38ab56bb47bf8b4da7c3bb70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 82.prefab using Guid(747adca38ab56bb47bf8b4da7c3bb70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8dc2a85d44cd42dcbbcc9fce765f493e') in 0.058193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A_4x (7) Variant.prefab
+  artifactKey: Guid(623c2d45e34bc1440a14cc7e895e9781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A_4x (7) Variant.prefab using Guid(623c2d45e34bc1440a14cc7e895e9781) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33be0ea8c657fdf0f47b1d57e61a9368') in 0.059779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 73.prefab
+  artifactKey: Guid(8ae8da601507c884792444b011ee25d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 73.prefab using Guid(8ae8da601507c884792444b011ee25d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7476fbf2b63bd7c6ba9d86117a2c11c7') in 0.061665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 17.prefab
+  artifactKey: Guid(a9adadf713289014194e372b0c45fe6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 17.prefab using Guid(a9adadf713289014194e372b0c45fe6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '323f1dd1d7ff5e8856691a0b3784442e') in 0.068425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 14.prefab
+  artifactKey: Guid(a678e1132ad39a748aeca9faafdd71cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 14.prefab using Guid(a678e1132ad39a748aeca9faafdd71cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7274bdea77338c70bae24d5d48af5971') in 0.066815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 60.prefab
+  artifactKey: Guid(21c2ef8f7f92ebc41883c61d6c7ff7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 60.prefab using Guid(21c2ef8f7f92ebc41883c61d6c7ff7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9255605ef5e7fd5b311399d52d857eb7') in 0.063884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 79.prefab
+  artifactKey: Guid(405caff9bb391af4d90fef24c5185912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 79.prefab using Guid(405caff9bb391af4d90fef24c5185912) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f489629fd2e3c0c2e4c62693c5516c7e') in 0.076466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant.prefab
+  artifactKey: Guid(097e5d4fa33022445a5d327e2f09fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant.prefab using Guid(097e5d4fa33022445a5d327e2f09fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '52c2183c15611e4919e4a3b622b8b46d') in 0.068881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 27.prefab
+  artifactKey: Guid(36282927c3a5c2f44ae4ff265afcf926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 27.prefab using Guid(36282927c3a5c2f44ae4ff265afcf926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '65099f796de6162f5ab1d22e66c5b8fd') in 0.055847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Cor_B Variant 2.prefab
+  artifactKey: Guid(4ee7f13aceb56f84687d9f397696f8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Cor_B Variant 2.prefab using Guid(4ee7f13aceb56f84687d9f397696f8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '88bce2f2913a5e183bbd6c3c424d4fde') in 0.059703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 1.prefab
+  artifactKey: Guid(3e760f9c25245c742904308e48707ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 1.prefab using Guid(3e760f9c25245c742904308e48707ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aee0f5679db0e99b164c63973848cda2') in 0.064051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_B Variant 5.prefab
+  artifactKey: Guid(582c3b9418cd8744e8b33f46543dde88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_B Variant 5.prefab using Guid(582c3b9418cd8744e8b33f46543dde88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82e235110afa03537a62e1ede01fee92') in 0.070285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_B Variant 1.prefab
+  artifactKey: Guid(5932965bc4f425947a97fccbda2f889b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_B Variant 1.prefab using Guid(5932965bc4f425947a97fccbda2f889b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '26a01ec2087a4761eef29b78fee7092e') in 0.062599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Int_B Variant 3.prefab
+  artifactKey: Guid(22819f14845fab7469f5ed89d9ad36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Int_B Variant 3.prefab using Guid(22819f14845fab7469f5ed89d9ad36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7429de5e507b2be0400259b1156c219f') in 0.066884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Cor_B Variant 9.prefab
+  artifactKey: Guid(80fb99ffc7cfbc74dafc0ff449fba3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Cor_B Variant 9.prefab using Guid(80fb99ffc7cfbc74dafc0ff449fba3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b70ba3762ed3f01a1ccb31ef454ab733') in 0.065263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 7.prefab
+  artifactKey: Guid(f5397934059bfb64182d437ec22588e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 7.prefab using Guid(f5397934059bfb64182d437ec22588e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'abda5492c6ed9d935272d3b32dc2d0a1') in 0.065332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_E Variant 7.prefab
+  artifactKey: Guid(c833297f7410eca44aab0f38de657b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_E Variant 7.prefab using Guid(c833297f7410eca44aab0f38de657b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fa126c7ed4a36837c5c1aeb5029d7428') in 0.066377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (19) Variant.prefab
+  artifactKey: Guid(4cf4310f99cac0949a918587a8c3a5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (19) Variant.prefab using Guid(4cf4310f99cac0949a918587a8c3a5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a06f4a9d418119a1546b05fb8151ec41') in 0.064570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (2) Variant.prefab
+  artifactKey: Guid(3185dc4664b6f334f93372c6b4d5e9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (2) Variant.prefab using Guid(3185dc4664b6f334f93372c6b4d5e9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33846d66927f9b5ba9d65fd18e623d61') in 0.068239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 74.prefab
+  artifactKey: Guid(53b9626edfee73546a2b101770d5fd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 74.prefab using Guid(53b9626edfee73546a2b101770d5fd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '57243b0afffe72fae5c02ef57f8a0e7b') in 0.067790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 36.prefab
+  artifactKey: Guid(1e9efd53d3499944a92e19e8ad5126b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 36.prefab using Guid(1e9efd53d3499944a92e19e8ad5126b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1dfbe2879a633bf634c1313588f3528c') in 0.063137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_B (1) Variant.prefab
+  artifactKey: Guid(998ed5cb90cb9664fa6cc644b44db42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_B (1) Variant.prefab using Guid(998ed5cb90cb9664fa6cc644b44db42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3fdb0cac7c082aa0c3309c9540494439') in 0.062856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Int_A Variant 6.prefab
+  artifactKey: Guid(48d318b5f5e00644b8895b3bbc253852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Int_A Variant 6.prefab using Guid(48d318b5f5e00644b8895b3bbc253852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8aad72fcfb915d517f699e26bde1aa2c') in 0.062942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Cor_B Variant 6.prefab
+  artifactKey: Guid(bcb0325e34a08df45b3f880a87fccbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Cor_B Variant 6.prefab using Guid(bcb0325e34a08df45b3f880a87fccbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '49340cbab6166d6bc7cb01e9d84c91c8') in 0.066712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 12.prefab
+  artifactKey: Guid(41effbf62dd3a6142ba7e2fbf37f1a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 12.prefab using Guid(41effbf62dd3a6142ba7e2fbf37f1a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7bb420ea8c75d326a3d1879ca911e2ad') in 0.064852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 21.prefab
+  artifactKey: Guid(bc6ff6c14a893ac4783828f6f19eb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 21.prefab using Guid(bc6ff6c14a893ac4783828f6f19eb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7b7d80cd0b14e222c0871a19516d157') in 0.072884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (8) Variant.prefab
+  artifactKey: Guid(bafbcf9bfad103549a20b2004267d965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (8) Variant.prefab using Guid(bafbcf9bfad103549a20b2004267d965) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f525d1b94eea944b7162f888d1885127') in 0.069062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_E Variant 10.prefab
+  artifactKey: Guid(be3cd1a049855044c9d8118312ff0a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_E Variant 10.prefab using Guid(be3cd1a049855044c9d8118312ff0a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1500829ef5f35afd11859cfd43c9f22f') in 0.060807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 18.prefab
+  artifactKey: Guid(2c1f97f219cdfe648b6decc32a7aa4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 18.prefab using Guid(2c1f97f219cdfe648b6decc32a7aa4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ee1c3b1dbd0e71105e7fada1b9d3ac3') in 0.073002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 1.prefab
+  artifactKey: Guid(ce0b3e59a1e908449b7b5049ad64f273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 1.prefab using Guid(ce0b3e59a1e908449b7b5049ad64f273) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fe8b4ca58532316e4130b29c47941c88') in 0.068218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (3) Variant.prefab
+  artifactKey: Guid(ec11b751420aff446b17993e2789cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (3) Variant.prefab using Guid(ec11b751420aff446b17993e2789cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1fdc2a1fc2529838199a4f79f95f032f') in 0.070080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 39.prefab
+  artifactKey: Guid(4cea45b4250ad8d41bc8e9fdecea8c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 39.prefab using Guid(4cea45b4250ad8d41bc8e9fdecea8c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '42a50001dfcf802cec36edef339a5fe0') in 0.067681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 20.prefab
+  artifactKey: Guid(0d96da1f68d828045bb1a79ccbfaa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 20.prefab using Guid(0d96da1f68d828045bb1a79ccbfaa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8176ba78c910f97ef44ce88a4dac4ac5') in 0.069542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant 3.prefab
+  artifactKey: Guid(bfa8fe3ee9d81fa4eb7c64046a49410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant 3.prefab using Guid(bfa8fe3ee9d81fa4eb7c64046a49410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '048a182e4ff48f0866ebb243149b473b') in 0.066411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 84.prefab
+  artifactKey: Guid(8b98f0823466a0842bad414b718ecf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 84.prefab using Guid(8b98f0823466a0842bad414b718ecf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca9cb2f6f93890efb1de48b1e39a1438') in 0.069824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 40.prefab
+  artifactKey: Guid(d03e564a2fee3a4458a3a07959543f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 40.prefab using Guid(d03e564a2fee3a4458a3a07959543f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ee10e2eb0286416e96e855dcf4970459') in 0.070172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (17) Variant.prefab
+  artifactKey: Guid(46571b2489718c342843722375712422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (17) Variant.prefab using Guid(46571b2489718c342843722375712422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ecd17b186aada996e5745044570dd1e2') in 0.080117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 11.prefab
+  artifactKey: Guid(219aa0fe39fcff14b9c8ac51a22eadec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 11.prefab using Guid(219aa0fe39fcff14b9c8ac51a22eadec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '47b5c8def63751e2c1e67060bb404975') in 0.123175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant 1.prefab
+  artifactKey: Guid(da05e08915ba0b24fad1a9e2c0d169c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant 1.prefab using Guid(da05e08915ba0b24fad1a9e2c0d169c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'add2b4ec02999fd085abcefdc5cf37ab') in 0.068859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (20) Variant.prefab
+  artifactKey: Guid(dbd5ec1b42cf9de44a70ac911e3eb90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (20) Variant.prefab using Guid(dbd5ec1b42cf9de44a70ac911e3eb90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cce35b45d2cccb1aed0cf66d1b9fcccb') in 0.073172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 12.prefab
+  artifactKey: Guid(c0ba17198660d934d8022533e97121be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 12.prefab using Guid(c0ba17198660d934d8022533e97121be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '10b0b7041dbf5c0a94af8156e521d231') in 0.070280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_E Variant 1.prefab
+  artifactKey: Guid(b2d9eca59a647f54ea6bc7fc76884363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_E Variant 1.prefab using Guid(b2d9eca59a647f54ea6bc7fc76884363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0b5251b4a88a92e5440c1a449b4ca4f6') in 0.063353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_B Variant 6.prefab
+  artifactKey: Guid(ed4ddac7de7903e4d9132bf0257eee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_B Variant 6.prefab using Guid(ed4ddac7de7903e4d9132bf0257eee37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bffd46a3650bbba8e2e725473fff7ddb') in 0.063942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 13.prefab
+  artifactKey: Guid(1cd09118696a58845acba53f47f48330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 13.prefab using Guid(1cd09118696a58845acba53f47f48330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f32094e2aef465646a746654f5ec4a67') in 0.066525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Int_B Variant 16.prefab
+  artifactKey: Guid(a2d75301496d39247b67757a91f81717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Int_B Variant 16.prefab using Guid(a2d75301496d39247b67757a91f81717) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e08ab96bc2550ba110b2a3a957d7db6') in 0.065624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 15.prefab
+  artifactKey: Guid(e2720f2e16c23884aabd1f94011be11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 15.prefab using Guid(e2720f2e16c23884aabd1f94011be11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7cdc7c854c98c7de9ea90d0a79a326fb') in 0.067685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Int_B Variant 2.prefab
+  artifactKey: Guid(daec1d4f98438e547bbaf82105719a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Int_B Variant 2.prefab using Guid(daec1d4f98438e547bbaf82105719a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b982775ff0abd03c10b34e3ab42944d7') in 0.066818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 18.prefab
+  artifactKey: Guid(b82c27cb28a38fd4bbb6e96e3a9df08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 18.prefab using Guid(b82c27cb28a38fd4bbb6e96e3a9df08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b68d297d8e5f90ce228a664b4111172') in 0.075662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 8.prefab
+  artifactKey: Guid(590c9e4684d85fc4d86a52a5df0fd674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 8.prefab using Guid(590c9e4684d85fc4d86a52a5df0fd674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '003bac5bfd8729e592548b34ee164a0d') in 0.069169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 20.prefab
+  artifactKey: Guid(a1a62b9d8fecd1c4e831303fa6b0193c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 20.prefab using Guid(a1a62b9d8fecd1c4e831303fa6b0193c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '75b7e211d9102b65118f195249c43012') in 0.068201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Int_A Variant 8.prefab
+  artifactKey: Guid(b0367a6c0bb84374d82e6a82e001ddb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Int_A Variant 8.prefab using Guid(b0367a6c0bb84374d82e6a82e001ddb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c29324893ee1d5abc1358d2d584e1f1b') in 0.066692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 50.prefab
+  artifactKey: Guid(e456fd20f2567d14591bf047684a01d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 50.prefab using Guid(e456fd20f2567d14591bf047684a01d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c5813fe527eb50d0a5e9004a3cd71389') in 0.064534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 85.prefab
+  artifactKey: Guid(4cc11feecc96ae04d8ee200ff3aa977b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 85.prefab using Guid(4cc11feecc96ae04d8ee200ff3aa977b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a5dbd92a5d29c0b1634760aa6c0b8d43') in 0.060248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Cor_B Variant 5.prefab
+  artifactKey: Guid(4e94117958887044aa699fbdaece7497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Cor_B Variant 5.prefab using Guid(4e94117958887044aa699fbdaece7497) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ee2eb174b65d84ccbc0195980e63a91c') in 0.074724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Int_A Variant 16.prefab
+  artifactKey: Guid(3b812d5467f35274dbfc47b48d2e4afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Int_A Variant 16.prefab using Guid(3b812d5467f35274dbfc47b48d2e4afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7cdd57592eecee154861fb53d0bd0d41') in 0.066140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (5) Variant.prefab
+  artifactKey: Guid(df52f961ee109c644a77b772f6ecab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (5) Variant.prefab using Guid(df52f961ee109c644a77b772f6ecab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '91d0e391c692f0ec431738ee153bc429') in 0.066355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 7.prefab
+  artifactKey: Guid(e800d16559bd5e94f930d59442a165da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 7.prefab using Guid(e800d16559bd5e94f930d59442a165da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48cfb6d66c950c9e057387c73845758d') in 0.071866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 28.prefab
+  artifactKey: Guid(cae21d3339900844eafb16c9ac6713a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 28.prefab using Guid(cae21d3339900844eafb16c9ac6713a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c86ff9107acfba4b11176ba19c8bad41') in 0.075615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 25.prefab
+  artifactKey: Guid(372352b31803a62438bd0bf82fd9b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 25.prefab using Guid(372352b31803a62438bd0bf82fd9b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a3c98ad0e316a6b52e6eae6c4a0167e') in 0.066349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 21.prefab
+  artifactKey: Guid(0f5f557eee504d142af0131638c35ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 21.prefab using Guid(0f5f557eee504d142af0131638c35ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3e8b83ea46847ba2fa3c17563669983') in 0.114847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 14.prefab
+  artifactKey: Guid(df14db6115c5b344fa5d26ae0babf838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 14.prefab using Guid(df14db6115c5b344fa5d26ae0babf838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f776355c873557a403327fc331037f95') in 0.066971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 4.prefab
+  artifactKey: Guid(8d24ac91604e02642a4ae8304f7cd08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 4.prefab using Guid(8d24ac91604e02642a4ae8304f7cd08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e910f3842b58502d1510305b16c7518e') in 0.096872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Cor_A Variant 6.prefab
+  artifactKey: Guid(bbbc854e10986d74da63846364ff8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Cor_A Variant 6.prefab using Guid(bbbc854e10986d74da63846364ff8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e9be3ddbe8bdab29f4807f44323a34fd') in 0.079323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant 2.prefab
+  artifactKey: Guid(567ad6fd08e85194f8787707ff31f787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant 2.prefab using Guid(567ad6fd08e85194f8787707ff31f787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '378bd782c2beac9acf601849ef8b2361') in 0.103706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 11.prefab
+  artifactKey: Guid(f62e780b3abb7614b8dc08e81bb1b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 11.prefab using Guid(f62e780b3abb7614b8dc08e81bb1b48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b34321ea87f4264f99bee7ca901ea47e') in 0.080007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 15.prefab
+  artifactKey: Guid(41e924fd389d4f84b9b470ef03a80dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_A Variant 15.prefab using Guid(41e924fd389d4f84b9b470ef03a80dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '889188adc624e6b875db33cde7b51577') in 0.069780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Cor_B Variant 3.prefab
+  artifactKey: Guid(135c6e43de9bc4e41bb422385ad25515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Cor_B Variant 3.prefab using Guid(135c6e43de9bc4e41bb422385ad25515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c209ec5251731dec4ea4d9a7d6d5379') in 0.069225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Cor_A Variant 4.prefab
+  artifactKey: Guid(85b3057de83a76a40a1fec61b1427ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Cor_A Variant 4.prefab using Guid(85b3057de83a76a40a1fec61b1427ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5072f84d57ceb3d90e408112335c4ad5') in 0.069026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 18.prefab
+  artifactKey: Guid(559b167a785bb404ea92a733bc681f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 18.prefab using Guid(559b167a785bb404ea92a733bc681f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1d8d4f220d25c6deb172510998388a2a') in 0.071607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 20.prefab
+  artifactKey: Guid(d0bce1ce303e9b74f87ef6aa4289f453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Mid_A Variant 20.prefab using Guid(d0bce1ce303e9b74f87ef6aa4289f453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a241a7bfffbd3335bde89c9c2066f20') in 0.071517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A_4x Variant 7.prefab
+  artifactKey: Guid(b6b95840bbd1f6e49b685dad2c80deb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A_4x Variant 7.prefab using Guid(b6b95840bbd1f6e49b685dad2c80deb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '154597b181bac0f2c95bf79c657815f4') in 0.075284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (13) Variant.prefab
+  artifactKey: Guid(f927a87673b125e46b50921a82a00a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (13) Variant.prefab using Guid(f927a87673b125e46b50921a82a00a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '86260502a16fa695cef9dcfce76c3949') in 0.092773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant 7.prefab
+  artifactKey: Guid(9e483fa18f6c2d946ad1b1da025a39cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant 7.prefab using Guid(9e483fa18f6c2d946ad1b1da025a39cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55c41326479ae892d8dd31a481e5c209') in 0.088434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (16) Variant.prefab
+  artifactKey: Guid(9450ca4dc87a00f488c86e570757ac94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A_4x (16) Variant.prefab using Guid(9450ca4dc87a00f488c86e570757ac94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '31e9f6ad31ce86950f77caf5ac4071ed') in 0.073569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant 9.prefab
+  artifactKey: Guid(2225efb3d64b62a4885ba655e76b6c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Top_Cor_A Variant 9.prefab using Guid(2225efb3d64b62a4885ba655e76b6c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cceb25da518620a89c65b1b8a9aabf5f') in 0.093612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 43.prefab
+  artifactKey: Guid(5a2ab2006ec5b424783ab40f630af5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 43.prefab using Guid(5a2ab2006ec5b424783ab40f630af5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e192ecfd879fcb6a42b27604d416696') in 0.067476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Int_A Variant 9.prefab
+  artifactKey: Guid(7c4e2b45b7056ac4ca6ca671491fc032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Int_A Variant 9.prefab using Guid(7c4e2b45b7056ac4ca6ca671491fc032) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b024812b92b69247ce31d624088f8ab9') in 0.069080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 9.prefab
+  artifactKey: Guid(24c36df3f292272419a6c32a9b274746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Roof_Mid_A Variant 9.prefab using Guid(24c36df3f292272419a6c32a9b274746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b6ca6990d1f297215ac4624e2e64b45d') in 0.069662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 17.prefab
+  artifactKey: Guid(83f8925f06836a84eb3ffd1a272febf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 17.prefab using Guid(83f8925f06836a84eb3ffd1a272febf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bdcf0f76f480a700443c019e73328564') in 0.068660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 68.prefab
+  artifactKey: Guid(1d9fffd6feea46648bdbf4ce8e2cab6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Floor_Mid_A Variant 68.prefab using Guid(1d9fffd6feea46648bdbf4ce8e2cab6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '60842f3a2cf1dddaf74e23d4a57f7f57') in 0.070748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 1.prefab
+  artifactKey: Guid(b9a93977476be8b47a4071ec80010f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scene jeux/Villa2_Wall_Mid_C Variant 1.prefab using Guid(b9a93977476be8b47a4071ec80010f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6afa1ca3af97524dde89e3023597c2eb') in 0.059214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
